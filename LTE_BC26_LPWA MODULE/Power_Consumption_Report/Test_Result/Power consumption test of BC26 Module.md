@@ -10,8 +10,8 @@ This document describes the power consumption of BC26 module under different con
 # Test Condition
 ## Test Instrument
 KEITHLEY 2110 5½ Digit Multimeter\
-<img src="../../Figures/Digit%20Multimeter.jpeg" width = 50% height = 50% >
-*You can get support on how to ues this instrument at* *https://github.com/Kolmostar/misc-tools-for-testing/tree/master/DMM/query-usbtmc*
+<img src="../../Figures/Digit%20Multimeter.jpeg" width = 50% height = 50% >\
+**You can get support on how to ues this instrument at *https://github.com/Kolmostar/misc-tools-for-testing/tree/master/DMM/query-usbtmc*
 ## Test connection
 
 * How to connect modules?
