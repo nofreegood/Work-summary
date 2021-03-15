@@ -1,0 +1,11 @@
+# Beijing Haidian
+latitude: 40
+longitude: 116.4
+height: 0
+
+# Please replace them with your add your api and apikey
+api: https://rsmgiqg0kh.execute-api.cn-north-1.amazonaws.com.cn/default/entry
+apikey: whatever
+
+# Num points
+num_points: 16
