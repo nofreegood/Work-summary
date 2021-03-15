@@ -163,7 +163,7 @@ This part describes the features on eDRX mode of BC26.  eDRX mode decreases the 
 ## NOTES
 * The UE can enable eDRX , but the period is determined by the network side（communication operators).**China Mobile** can provide parameters as follow:\
 **TeDRX**=20.48s-2.91h\
-**TPTW**=20.48s\
+**TPTW**=20.48s
 * Module in eDRX mode(TeDRX<=89.12s) can be waked up by UART or TeDRX timeout.If TeDRX>89.12s，module will enter deep sleep automatically, which means module can only be waked up by TeDRX timeout.
 ## AT COMMANDS
 ### Enable eDRX
