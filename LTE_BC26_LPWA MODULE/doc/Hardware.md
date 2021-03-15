@@ -13,6 +13,6 @@ connected with the customers’ applications.
 This document can help customers quickly understand module interface specifications, electrical and
 mechanical details, as well as other related information of the module. Associated with application notes
 and user guides, customers can use BC66 to design and set up mobile applications easily.\
-*[click here-English Document about BC66](https://github.com/Kolmostar/NB_tracker/blob/summary/References/Quectel_BC66_Hardware_Design_V1.2.pdf)*\
+*[click here-English Document about BC66](https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/References/Quectel_BC66_Hardware_Design_V1.2.pdf)*\
 This document also applies to BC26 Module.If you only want to get more about BC26.\
-*[click here-Chinese Document about BC26](https://github.com/Kolmostar/NB_tracker/blob/summary/References/Quectel_BC26_硬件设计手册_V1.0_Preliminary_20171206.pdf)*
+*[click here-Chinese Document about BC26](https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/References/Quectel_BC26_%E7%A1%AC%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C_V1.0_Preliminary_20171206.pdf)*
