@@ -11,14 +11,14 @@ This document describes the power consumption of BC26 module under different con
 ## Test Instrument
 KEITHLEY 2110 5½ Digit Multimeter\
 <img src="../../Figures/Digit%20Multimeter.jpeg" width = 50% height = 50% >\
-**You can get support on how to ues this instrument at *https://github.com/Kolmostar/misc-tools-for-testing/tree/master/DMM/query-usbtmc*
+You can get support on how to ues this instrument at *https://github.com/Kolmostar/misc-tools-for-testing/tree/master/DMM/query-usbtmc*
 ## Test connection
 
 * How to connect modules?
 ![FAILED!](../../Figures/CONNECTION.jpeg)
-[What is sensor_v01?]()
-* VBAT_RF and VBAT_BB are power pins,power voltage is 3.6V.\
-<img src="../../../Figures/Pin Assignment.png" width = 70% height = 70% >
+[What is sensor_v01?](https://github.com/nofreegood/Work-summary/blob/master/Sensor_v01/doc/Introduction.md)
+* VBAT_RF and VBAT_BB are power pins, power voltage is 3.6V.
+<img src="../../Figures/Pin Assignment.png" width = 70% height = 70% >
 
 # Power-test-PSM
 This section describes the results of power consumption of BC26 in PSM under different states.One is set to RAI=0, another is RAI=1.Communication protocol is UDP.\
