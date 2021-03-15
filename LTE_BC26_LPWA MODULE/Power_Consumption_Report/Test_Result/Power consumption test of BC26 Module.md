@@ -22,7 +22,7 @@ You can get support on how to ues this instrument at *https://github.com/Kolmost
 
 # Power-test-PSM
 This section describes the results of power consumption of BC26 in PSM under different states.One is set to RAI=0, another is RAI=1.Communication protocol is UDP.\
-[what is RAI?]()
+[what is RAI?](https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/doc/Software.md#how-to-use-release-assistance-indication)
 ## RAI=0
 ### PARAMETERS:
 T3412=1h,T3324=30s
@@ -41,7 +41,7 @@ access network->wait->release RRC->IDLE->UDP send data and release RRC->IDLE->PS
 ### RESULT
 Average power is **23.86mW**\
 Deep sleep power is **0.02mW**\
-You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/power_consumption_data/RAI%3D1-UDP-PSM-BC26.csv).
+You can get test data at(https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/Power_Consumption_Report/Test_Data/RAI%3D1-UDP-PSM-BC26.csv).
 ![FAILED!](../../Figures/RAI%3D1-UDP-PSM-BC26.png)
 ## CONCLUSION
 Enable RAI=1 means the second **20S WAIT** can be omitted,which saves more power. 
@@ -57,8 +57,8 @@ paging-wait-paging-wait...
 ### RESULT
 Average power is **18.43mW**\
 Wait power is **18.3560mW**\
-You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/power_consumption_data/eDRX-disable%20sleep%20mode.csv).
-![FAILED!](../../../Figures/eDRX-disable%20sleep%20mode.jpeg)
+You can get test data at(https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/Power_Consumption_Report/Test_Data/eDRX-disable%20sleep%20mode.csv).
+![FAILED!](../../Figures/eDRX-disable%20sleep%20mode.jpeg)
 
 
 ## Light sleep mode
@@ -70,8 +70,8 @@ paging-wait-paging-wait...
 ### RESULT
 Average power is **0.87mW**\
 Wait power is **0.7524mW**\
-You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/power_consumption_data/eDRX-light%20sleep%20mode.csv).
-![FAILED!](../../../Figures/eDRX-light%20sleep%20mode.jpeg)
+You can get test data at(https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/Power_Consumption_Report/Test_Data/eDRX-ligth%20sleep%20mode.csv).
+![FAILED!](../../Figures/eDRX-light%20sleep%20mode.jpeg)
 ## Deep sleep mode
 Deep sleep mode means module can only be waked up by TeDRX timeout.When **TeDRX>=168.34s**, module enters deep sleep mode automatically.
 ### PARAMETERS:
@@ -81,8 +81,8 @@ paging->deep sleep->access network->wait->release RRC
 ### RESULT
 Average power is **38.02mW**\
 Deep sleep mode power is **0.02mW**\
-You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/power_consumption_data/eDRX-deep%20sleep%20mode.csv).
-![FAILED!](../../../Figures/eDRX-deep%20sleep%20mode.jpeg)
+You can get test data at(https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/Power_Consumption_Report/Test_Data/eDRX-deep%20sleep.csv).
+![FAILED!](../../Figures/eDRX-deep%20sleep%20mode.jpeg)
 ## NOTES
 1. Comparing eDRX in deep sleep and PSM, we can find that the two are very similar, the difference is that the proportion of deep sleep.
 2. In theory, eDRX in deep sleep consumes less energy, but in fact it consumes up to 38mw, which is much higher than eDRX in light sleep, because in deep sleep mode, when the module wakes up from deep sleep, it **may** re-access the network.**I am not sure what happened during this time**, but this behavior does consume a lot of energy.
@@ -92,5 +92,5 @@ You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/pow
 This section test the power consumption of sending 1 bytes by TCP. In the same condition, send 5 bytes data by TCP firstly, then send 10 bytes data.Second power consumption minus first power consumption，then divide by 5 to get power consumption per byte by TCP.
 ## RESULT
 Current consumption:0.826mA/byte
-![FAILED!](../../../Figures/UDP_Sent_5bytes.png)
-![FAILED!](../../../Figures/UDP_Sent_10bytes.png)
+![FAILED!](../../Figures/UDP_Sent_5bytes.png)
+![FAILED!](../../Figures/UDP_Sent_10bytes.png)
