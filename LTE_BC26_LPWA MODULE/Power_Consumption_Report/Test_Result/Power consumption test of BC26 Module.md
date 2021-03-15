@@ -32,7 +32,7 @@ access network->wait->release RRC->IDLE->UDP send data->wait->release RRC->IDLE-
 Average power is **29.68mW**\
 Deep sleep power is **0.02mW**\
 You can get test data at(../Test Data/RAI%3D0-UDP-PSM-BC26.csv).
-![FAILED!](../../../Figures/RAI%3D0-UDP-PSM-BC26.png)
+![FAILED!](../../Figures/RAI%3D0-UDP-PSM-BC26.png)
 ## RAI=1
 ### PARAMETERS:
 T3412=1h,T3324=30s
@@ -42,7 +42,7 @@ access network->wait->release RRC->IDLE->UDP send data and release RRC->IDLE->PS
 Average power is **23.86mW**\
 Deep sleep power is **0.02mW**\
 You can get test data at(https://github.com/Kolmostar/NB_tracker/blob/master/power_consumption_data/RAI%3D1-UDP-PSM-BC26.csv).
-![FAILED!](../../../Figures/RAI%3D1-UDP-PSM-BC26.png)
+![FAILED!](../../Figures/RAI%3D1-UDP-PSM-BC26.png)
 ## CONCLUSION
 Enable RAI=1 means the second **20S WAIT** can be omitted,which saves more power. 
 
