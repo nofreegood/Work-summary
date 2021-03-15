@@ -9,8 +9,8 @@ This part describes how to use AT commands to control BC26 module.These commands
 
 
 We can combine these commands to transfer positioning data to the server based on BC26 module.\
-*You can get more usages of these commands at
-https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/References/Quectel_BC26_AT_Commands_Manual_V1.0_Preliminary_20180125.pdf*
+* You can get more usages of these commands at
+[Quectel_BC26_AT_Commands](https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/References/Quectel_BC26_AT_Commands_Manual_V1.0_Preliminary_20180125.pdf)*
 # How to Enable/Disable Echo-Mode
 Some BC26 module will enable Echo Mode by default，which means module will echo commands you send.If you don't need this function,you can send AT commands to disable it.
 ## NOTES
