@@ -72,4 +72,4 @@ NB-IoT applications can cross many service categories. These include:
 
 **You can find more about NB-iot at**
 * [What is Narrowband IoT?](https://5g.co.uk/guides/what-is-narrowband-iot/)
-* [Huawei_NB-IOT-Enabling New Business Opportunities](https://github.com/Kolmostar/NB_tracker/blob/summary/References/Huawei_NB-IOT-Enabling%20New%20Business%20Opportunities.pdf)
+* [Huawei_NB-IOT-Enabling New Business Opportunities](https://github.com/nofreegood/Work-summary/blob/master/NB-IOT/References/Huawei_NB-IOT-Enabling%20New%20Business%20Opportunities.pdf)
