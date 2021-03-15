@@ -251,14 +251,14 @@ This section describes the functions of the RAIï¼ˆRelease Assistance Indicationï
 <img src="../Figures/bc26-psm.png" width = 50% height = 50% >
 ## AT COMMANDS
 Send `AT+QNBIOTRAI=<rai>\r\n`\
-Response `\r\nOK\r\n`\
+Response `\r\nOK\r\n`
 
 
 **Comment**\
 `<rai>` Integer type. Specifies release assistance information\
 0 No information available (or none of the other options apply)\
 1 TE will send only 1 UL packet and no DL packets expected.It means that the terminal sends an uplink data, and does not expect to have a downlink packet, such as the UDP protocol. After the uplink is sent, the RRC is released.\
-2 TE will send only 1 UL packet and only 1 DL packet expected.If the terminal sends an uplink and has a downlink ACK packet, the RRC will be released immediately after receiving the downlink packet.\
+2 TE will send only 1 UL packet and only 1 DL packet expected.If the terminal sends an uplink and has a downlink ACK packet, the RRC will be released immediately after receiving the downlink packet. 
 
 
 **For example**, PING; if such a scenario uses parameter 1, it will be released immediately after the uplink transmission is completed, but because the network needs to reply the ACK to the terminal, the network will page the terminal again to re-establish the RRC connection.
