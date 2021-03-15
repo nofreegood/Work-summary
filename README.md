@@ -12,5 +12,7 @@ Welcome to NB_tracker project! This project provides a demo for tracking the use
    * [How to choose track mode?](https://github.com/nofreegood/Work-summary/blob/master/NB_Tracker_Demo/doc/how%20to%20use.md)
    * [Introduction on comunication with server](https://github.com/nofreegood/Work-summary/blob/master/KM1612_BC26_AWS/doc/Introduction.md)
    * [How to obtain positioning information?](https://github.com/nofreegood/Work-summary/blob/master/KM1612_BC26_AWS/doc/Introduction.md)
+   * [Code for track and communication](https://github.com/nofreegood/Work-summary/blob/master/KM1612_BC26_AWS/TCP_sensor_v01_code.rar)
+   * [Code for listening](https://github.com/nofreegood/Work-summary/tree/master/KM1612_BC26_AWS/listener_code)
 * Power consumption of module based on NB-IOT is very important.Here you can get a report on it.
    * [Power consumption report of BC26 Module](https://github.com/nofreegood/Work-summary/blob/master/LTE_BC26_LPWA%20MODULE/Power_Consumption_Report/Test_Result/Power%20consumption%20test%20of%20BC26%20Module.md)
